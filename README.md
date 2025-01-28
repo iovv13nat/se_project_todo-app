@@ -31,4 +31,4 @@ This is a TaskTracker application - a digital tool that helps users organize and
 
 This project is deployed on GitHub Pages:
 
-- ADD LINK HERE
+- [Deployment link:](https://iovv13nat.github.io/se_project_todo-app/)
