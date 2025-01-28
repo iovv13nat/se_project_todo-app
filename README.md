@@ -21,10 +21,10 @@ This is a TaskTracker application - a digital tool that helps users organize and
 - JavaScript (JS): Makes the app interactive and handles logic like adding tasks, marking tasks as complete, and  
   deleting tasks
 - OOP: Object-Oriented Programming to structure our TaskTracker app. We used:
-  . Classes:They encapsulate data and behavior related to a particular entity. We had to create two classes FormValidator and Todo class.
-  . Objects: Instances of a class. They hold actual data (properties) and the actions (methods) that can be performed on that data
-  . Encapsulation: Grouping related data and methods together in one object.
-  . Inheritance: Creating a new class based on an existing one, inheriting its properties and methods.
+  - Classes:They encapsulate data and behavior related to a particular entity. We had to create two classes FormValidator and Todo class.
+  - Objects: Instances of a class. They hold actual data (properties) and the actions (methods) that can be performed on that data
+  - Encapsulation: Grouping related data and methods together in one object.
+  - Inheritance: Creating a new class based on an existing one, inheriting its properties and methods.
 - JavaScript modules: that allow us to break our code into separate files, each containing different pieces of functionality.
 
 ## Deployment
