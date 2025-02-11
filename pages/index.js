@@ -31,11 +31,15 @@ const generateTodo = (data) => {
   return todoElement;
 };
 
+const renderTodo = (item) => {
+  const todo = generateTodo(item);
+  section.addItem(todo);
+};
+
 const section = new Section({
   items: initialTodos,
   renderer: (item) => {
-    const todo = generateTodo(item);
-    section.addItem(todo);
+    renderTodo(item);
   },
   containerSelector: ".todos__list",
 });
@@ -46,12 +50,10 @@ const addTodoPopup = new PopupWithForm({
   handleFormSubmit: (formData) => {
     const { name, date } = formData;
     const id = uuidv4();
-
     const values = { name, date: new Date(date), id };
     // date.setMinutes(date.getMinutes() + date.getTimezoneOffset());
     todoCounter.updateTotal(true);
-    const todo = generateTodo(values);
-    todosList.append(todo);
+    renderTodo(values);
     newTodoValidator.resetValidation();
     addTodoPopup.close();
   },
