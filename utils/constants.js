@@ -27,5 +27,5 @@ const validationConfig = {
   inputErrorClass: "popup__input_type_error",
   inactiveButtonClass: "button_disabled",
 };
-const todoTemp = "#todo-template";
-export { initialTodos, validationConfig, todoTemp };
+
+export { initialTodos, validationConfig };

@@ -26,6 +26,7 @@ This is a TaskTracker application - a digital tool that helps users organize and
   - Encapsulation: Grouping related data and methods together in one object.
   - Inheritance: Creating a new class based on an existing one, inheriting its properties and methods.
 - JavaScript modules: that allow us to break our code into separate files, each containing different pieces of functionality.
+- Loose coupling :refers to designing components or modules in a way that reduces dependencies between them.
 
 ## Deployment
 
